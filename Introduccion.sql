@@ -32,3 +32,12 @@ ALTER TABLE camper MODIFY COLUMN nombre VARCHAR(200) NOT NULL DEFAULT ''; -- Mod
 ALTER TABLE camper DROP COLUMN phone; -- Eliminar Columna de una tabla
 
 RENAME TABLE camper TO campersinos; -- Renombrar tabla
+
+-- Datos
+
+INSERT INTO camper (nombre, fecha_nac) VALUES -- Insertar datos a una tabla 
+('Sara Sofia', '2007-03-15'),
+('Nicolas Muskus Tarazona', '2006-08-22'),
+('Danilo Muskus Tarazona', '2008-01-10');
+
+SELECT * FROM camper; -- Mostrar todos los datos de una tabla
