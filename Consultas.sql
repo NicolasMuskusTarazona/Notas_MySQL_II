@@ -1,4 +1,4 @@
--- Active: 1750363406677@@127.0.0.1@3307@mi_base_de_datos
+-- Active: 1750369939890@@127.0.0.1@3307@mi_base_de_datos
 ## Consultas
 ## 1. Consultar todos los datos de una tabla
 
